@@ -4,7 +4,19 @@
   "main": "index.js",
   "repository": "git@github.com:chenkjia/eagle.git",
   "author": "chenkjia <chenkjia@live.com>",
+  "type": "module",
   "license": "MIT",
+  "scripts": {
+    "start": "pm2 start ./src/main.js",
+    "stop": "pm2 stop ./src/main.js",
+    "dev": "node ./src/main.js",
+    "test:collect": "node ./test/collect.js",
+    "test:cleanUp": "node ./test/cleanUp.js",
+    "test:deconstruct": "node ./test/deconstruct.js",
+    "test:complete": "node ./test/complete.js",
+    "test:calculate": "node ./test/calculate.js",
+    "test:assembly": "node ./test/assembly.js"
+  },
   "dependencies": {
     "alchemy-sdk": "^3.1.0",
     "axios": "^1.6.2",
