@@ -1,0 +1,17 @@
+{
+  "name": "eagle",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:chenkjia/eagle.git",
+  "author": "chenkjia <chenkjia@live.com>",
+  "license": "MIT",
+  "dependencies": {
+    "alchemy-sdk": "^3.1.0",
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.9.0",
+    "lodash": "^4.17.21",
+    "mongodb": "^6.3.0",
+    "pm2": "^5.3.0"
+  }
+}
